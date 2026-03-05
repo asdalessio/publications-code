@@ -32,3 +32,8 @@ Conclusion: As long-running cohorts progress in age, death within the study samp
 - Code to evaluate `single_sim_observed_data.csv`
   - `single_sim.R`: Application of proposed estimators using single simulated data set
     - Requires `semicomp_gcomp_estimator_functions.R`,`alternative_estimator_functions.R`,`multistate_DGM.R`, and `sim_functions.R`
+
+**System Details**
+
+R: 4.4.0
+- Dependencies (used verision): resample (0.6), nnet (7.3-20), stats (4.4.0), betareg (3.2-4), tidyverse (2.0.0)
