@@ -20,11 +20,15 @@ Conclusion: As long-running cohorts progress in age, death within the study samp
 
 `Rcode/`
 
-- `semicomp_gcomp_estimator_functions.R`: functions for the proposed g-computation estimators (ICE and Standard g-computation)
-- `alternative_estimator_functions.R`: functions for the alternative estimators
-- `multistate_DGM.R`: data generating mechanism described in the paper
-- `sim.R`: full simulation experiement comparing proposed estimators to alternative estimators
-- `run_sim_job.R`: batch submission to run `sim.R` in parallel
-- `single_sim.R`: single simulation experiement comparing proposed estimators to alternative estimators using `single_sim_observed_data.csv`
-- `sim_functions.R`: functions to assist with processing simulation results
-- `evaluate_sim.R`: calculation of simulation evaluation metrics as described in the paper
+- Estimators described in the paper
+  - `semicomp_gcomp_estimator_functions.R`: functions for the proposed g-computation estimators (ICE and Standard g-computation)
+  - `alternative_estimator_functions.R`: functions for the alternative estimators
+- Code to replicate the simulation results in the paper
+  - `multistate_DGM.R`: data generating mechanism described in the paper
+  - `sim.R`: full simulation experiement comparing proposed estimators to alternative estimators
+  - `run_sim_job.R`: batch submission to run `sim.R` in parallel
+  - `sim_functions.R`: functions to assist with processing simulation results
+  - `evaluate_sim.R`: calculation of simulation evaluation metrics as described in the paper
+- Code to evaluate `single_sim_observed_data.csv`
+  - `single_sim.R`: single simulation experiement comparing proposed estimators to alternative estimators using `single_sim_observed_data.csv`
+    - Requires `semicomp_gcomp_estimator_functions.R`,`alternative_estimator_functions.R`,`multistate_DGM.R`, and `sim_functions.R`
