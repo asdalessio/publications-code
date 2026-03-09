@@ -26,7 +26,7 @@ Conclusion: As long-running cohorts progress in age, death within the study samp
 - Code to replicate the simulation results in the paper
   - `multistate_DGM.R`: data generating mechanism described in the paper
   - `sim.R`: full simulation experiement comparing proposed estimators to alternative estimators
-  - `run_sim_job.R`: batch submission to run `sim.R` in parallel
+  - `run_sim_job.sl`: batch submission to run `sim.R` in parallel
   - `sim_functions.R`: functions to assist with processing simulation results
   - `evaluate_sim.R`: calculation of simulation evaluation metrics as described in the paper
 - Code to evaluate `single_sim_observed_data.csv`
