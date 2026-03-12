@@ -1,6 +1,10 @@
-# Full simulation for recurrent and semi-competing event g-computation
-# Alena Sorensen D'Alessio
+#####################################################################################################################
+# Novel g-computation algorithms for time-varying actions with recurrent and semi-competing events
+# D'Alessio et al.
 # March 1, 2026
+
+#Full simulation
+#####################################################################################################################
 
 
 library(resample)
