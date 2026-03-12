@@ -18,7 +18,7 @@ Conclusion: As long-running cohorts progress in age, death within the study samp
 
 - `single_sim_observed_data.csv`: Single simulated data set using the data generating mechanism described in the paper
 
-`Rcode/`
+`R_code/`
 
 - Estimators described in the paper
   - `semicomp_gcomp_estimator_functions.R`: functions for the proposed g-computation estimators (ICE and Standard g-computation)
@@ -33,7 +33,17 @@ Conclusion: As long-running cohorts progress in age, death within the study samp
   - `single_sim.R`: Application of proposed estimators using single simulated data set
     - Requires `semicomp_gcomp_estimator_functions.R`,`alternative_estimator_functions.R`,`multistate_DGM.R`, and `sim_functions.R`
 
+`Python_code/`
+- Estimators described in the paper
+  - `efuncs.py`: functions for the proposed g-computation estimators
+- Code to evaluate `single_sim_observed_data.csv`
+  - `example.py`: Application of proposed estimators using single simulated data set
+    - Requires `efuncs.py`
+
 **System Details**
 
 R: 4.4.0
 - Dependencies (used verision): resample (0.6), nnet (7.3-20), stats (4.4.0), betareg (3.2-4), tidyverse (2.0.0)
+  
+Python: v3.13.7
+- Dependencies (used version): NumPy (2.3.5), SciPy (1.16.3), pandas (2.3.3), Delicatessen (4.1)
