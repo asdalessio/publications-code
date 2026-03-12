@@ -1,6 +1,11 @@
-# Data generating mechanism for recurrent and semi-competing events
-# Alena Sorensen D'Alessio
+#####################################################################################################################
+# Novel g-computation algorithms for time-varying actions with recurrent and semi-competing events
+# D'Alessio et al.
 # March 1, 2026
+
+#Data generating mechanism
+#####################################################################################################################
+
 
 
 ##Helper functions
