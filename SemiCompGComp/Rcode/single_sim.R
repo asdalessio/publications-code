@@ -2,6 +2,9 @@
 # Novel g-computation algorithms for time-varying actions with recurrent and semi-competing events
 # D'Alessio et al.
 # March 1, 2026
+
+#Application of proposed estimators using single simulated data set
+#Requires semicomp_gcomp_estimator_functions.R and sim_functions.R
 #####################################################################################################################
 
 library(tidyverse)
