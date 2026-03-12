@@ -31,7 +31,7 @@ Conclusion: As long-running cohorts progress in age, death within the study samp
   - `evaluate_sim.R`: calculation of simulation evaluation metrics as described in the paper
 - Code to evaluate `single_sim_observed_data.csv`
   - `single_sim.R`: Application of proposed estimators using single simulated data set
-    - Requires `semicomp_gcomp_estimator_functions.R`,`alternative_estimator_functions.R`,`multistate_DGM.R`, and `sim_functions.R`
+    - Requires `semicomp_gcomp_estimator_functions.R` and `sim_functions.R`
 
 `Python_code/`
 - Estimators described in the paper
